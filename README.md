@@ -13,7 +13,7 @@ User Authentication Endpoints:
 
 POST /api/v1/auth/register: Register a new user.
 POST /api/v1/auth/login: Authenticate a user and generate a JWT token.
-POST /api/v1/auth/logout: Logout the currently authenticated user and invalidate the JWT token.
+
 Train Management Endpoints:
 
 POST /api/v1/train/add: Add a new train to the system. (Requires ADMIN role)
