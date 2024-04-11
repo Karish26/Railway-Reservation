@@ -11,7 +11,7 @@ Created an API that supports the requirements
 
 User Authentication Endpoints:
 
-POST /api/v1/auth/signup: Register a new user.
+POST /api/v1/auth/register: Register a new user.
 POST /api/v1/auth/login: Authenticate a user and generate a JWT token.
 POST /api/v1/auth/logout: Logout the currently authenticated user and invalidate the JWT token.
 Train Management Endpoints:
@@ -28,9 +28,5 @@ GET /api/v1/user/profile: Retrieve the profile of the currently authenticated us
 PUT /api/v1/user/password: Change the password of the currently authenticated user.
 API Documentation Endpoint:
 
-GET /swagger-ui.html: Access the Swagger UI for interactive API documentation.
-You can explore these endpoints as defined in the controller classes.
 
-7.Optional: Run Tests: If you want to run the tests included in the project, you can use the following command: gradlew test
-  This command will execute all the tests and provide the test results.
 
