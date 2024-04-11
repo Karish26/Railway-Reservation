@@ -18,15 +18,18 @@ Train Management Endpoints:
 
 POST /api/v1/train/add: Add a new train to the system. (Requires ADMIN role)
 PUT /api/v1/train/{trainId}/seats: Update the total number of seats in a train. (Requires ADMIN role)
+
 Train Booking Endpoints:
 
 POST /api/v1/train/book: Book a train by providing source, destination, number of seats, and traveler name.
 GET /api/v1/train/book/{bookingId}: Retrieve booking details by booking ID.
+
+
 User Management Endpoints:
 
 GET /api/v1/user/profile: Retrieve the profile of the currently authenticated user.
 PUT /api/v1/user/password: Change the password of the currently authenticated user.
-API Documentation Endpoint:
+
 
 
 
